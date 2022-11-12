@@ -12,4 +12,72 @@ a {
   margin: 0 auto;
 }
 
+#header {
+  background: #D52047;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+.header--one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--one h1 {
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+.header--two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--two a {
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+.header--tree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--tree h4 {
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 0 10px;
+}
+.header--tree button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  margin-left: 18px;
+  background: #D52047;
+}
+
 /*# sourceMappingURL=style.css.map */
