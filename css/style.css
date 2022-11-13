@@ -86,12 +86,15 @@ a {
 }
 
 .hero--cloud button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.hero--cloud button {
   background: #FFFFFF;
   border-radius: 6px;
   font-weight: 600;
   font-size: 14px;
-  align-items: center;
-  justify-content: center;
   text-transform: uppercase;
   padding: 20px 50px;
   color: #ED4C5C;
