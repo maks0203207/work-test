@@ -80,4 +80,44 @@ a {
   background: #D52047;
 }
 
+#hero {
+  background: url("../img/1bg.png");
+  min-height: 100vh;
+}
+
+.hero--cloud button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.hero--cloud button {
+  background: #FFFFFF;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 50px;
+  color: #ED4C5C;
+  border: none;
+  margin-left: 530px;
+}
+.hero--cloud p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 40px 0;
+}
+.hero--cloud h1 {
+  font-weight: 700;
+  font-size: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 200px;
+}
 /*# sourceMappingURL=style.css.map */
